@@ -1,39 +1,24 @@
+/*
+ * File: 2-print_alphabet.c
+ * Auth: Jaypor
+ */
+
 #include <stdio.h>
 
-
-
 /**
+ * main - Prints the alphabet in lowercase.
  *
- *  *main - print lowercase a-z
- *
- *   *Return: Always 0 (Success)
- *
- *    */
-
-
-
+ * Return: Always 0.
+ */
 int main(void)
-
 {
+	char letter;
 
-		char alpha = 'a';
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
+	putchar('\n');
 
-
-			while (alpha <= 'z')
-
-					{
-
-								putchar(alpha);
-
-										alpha++;
-
-											}
-
-				putchar('\n');
-
-
-
-					return (0);
+	return (0);
 
 }
