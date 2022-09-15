@@ -1,9 +1,10 @@
+
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
 /*
  * File: main.h
- * Auth: Jaypor 
+ * Auth: Brennan D Baraban
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x03-more_functions_nested_loops directory.
  */
@@ -21,3 +22,4 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 
+#endif
